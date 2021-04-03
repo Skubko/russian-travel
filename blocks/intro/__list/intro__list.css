@@ -1,0 +1,21 @@
+.intro__list {
+    position: relative;
+    width: 690px;/*              меняется на *768  и *320  */   
+    height: 90px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 33px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    list-style: none;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    /* or 150% */
+    color: #FFFFFF;
+    background-color: #2A2C2F;
+    }

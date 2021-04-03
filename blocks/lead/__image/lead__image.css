@@ -1,0 +1,6 @@
+.lead__image {
+    position: relative;
+    margin-top: 5%;
+    width: calc(100vw - 296px);
+    z-index: 2;
+    }

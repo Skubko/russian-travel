@@ -1,0 +1,16 @@
+.lead__title {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 56px;
+    width: 720px;                              /*меняется только на *320  */
+    height: 200px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+    /* or 104% */
+    text-align: center;
+    color: #FFFFFF;
+    }

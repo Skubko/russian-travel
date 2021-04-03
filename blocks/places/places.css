@@ -1,0 +1,8 @@
+.places {
+    margin: 92px 148px 0px 148px;
+    padding: 0px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
