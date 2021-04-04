@@ -1,5 +1,5 @@
-.place__paragraph_position-top {
-    grid-area: place__paragraph_position-top;
+.place__paragraph-position-bottom {
+    grid-area: place__paragraph-position-bottom;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -8,3 +8,4 @@
     /* or 29px */
     color: #FFFFFF;
     }
+    

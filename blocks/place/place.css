@@ -11,7 +11,7 @@
     grid-template-rows: repeat(3, min-content);
     grid-template-areas:
       "place__title place__website"
-      "place__image place__paragraph_position-top"
-      "place__image place__paragraph_position-bottom";
+      "place__image place__paragraph-position-top"
+      "place__image place__paragraph-position-bottom";
     gap: 26px 40px;
     }

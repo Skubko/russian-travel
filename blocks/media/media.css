@@ -104,12 +104,12 @@
       width: 720px;/*              меняется на *768  и *320  */   
       }
       
-      .intro__list_bold { 
+      .intro__list-bold { 
       font-weight: bold;
-      display: inline;
+      display: block;
       }
       
-      .intro__list_normal {
+      .intro__list-normal {
       font-weight: normal;
       display: inline;
       }    
@@ -134,11 +134,11 @@
       line-height: 46px;
       }
   
-      .place__paragraph_position-top {
+      .place__paragraph-position-top {
       font-size: 16px;
       }
       
-      .place__paragraph_position-bottom {
+      .place__paragraph-position-bottom {
       font-size: 16px;
       }
       
@@ -253,12 +253,12 @@
   line-height: 16px;
     }
     
-    .intro__list_bold { 
+    .intro__list-bold { 
     font-weight: bold;
-    display: inline;
+    display: block;
     }
     
-    .intro__list_normal {
+    .intro__list-normal {
     font-weight: normal;
     display: inline;
     }
@@ -282,8 +282,8 @@
       "place__title"
       "place__website"
       "place__image"
-      "place__paragraph_position-top"
-      "place__paragraph_position-bottom";
+      "place__paragraph-position-top"
+      "place__paragraph-position-bottom";
     grid-row-gap: 32px;
     }
     
@@ -307,15 +307,15 @@
     width: 100%;
     }
     
-    .place__paragraph_position-top {
-    grid-area: place__paragraph_position-top;
+    .place__paragraph-position-top {
+    grid-area: place__paragraph-position-top;
     font-size: 16px;
     margin-left: 16px;
     margin-right: 16px;
     }
     
-    .place__paragraph_position-bottom {
-    grid-area: place__paragraph_position-bottom;
+    .place__paragraph-position-bottom {
+    grid-area: place__paragraph-position-bottom;
     margin-left: 16px;
     margin-right: 16px;
     font-size: 16px;
