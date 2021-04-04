@@ -5,11 +5,7 @@
     margin: 0px;
     padding: 0px;
     margin-top: 33px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    list-style: none;
+    display: block;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
