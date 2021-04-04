@@ -1,12 +1,10 @@
 .cover__overlay {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-     z-index: 0;
-     display: block;
-     text-decoration: none;
-  }
-  .cover__overlay :hover {
-    opacity: 0.3;
-  }
-  
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  z-index: 0;
+  display: block;
+}
+.cover__overlay :hover {
+  opacity: 0.3;
+}
