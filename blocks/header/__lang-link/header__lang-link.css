@@ -9,3 +9,12 @@
     color: #fff;
     display: inline;
     }
+
+    @media screen and (max-width: 767px) {
+  
+        .header__lang-link {
+        margin-left: 18px;
+        font-size: 18px;
+        line-height: 20px;
+        }
+    }

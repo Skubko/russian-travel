@@ -10,3 +10,28 @@
     grid-template-rows: repeat(3, auto);
     gap: 16px;
     }
+
+    @media (min-width: 1024px) and (max-width: 1279px) {
+        .photo-grid {
+        grid-template-columns: repeat(3, auto);
+        grid-template-rows: repeat(4, auto);
+        gap: 14px;
+        }
+    }
+    @media (min-width: 768px) and (max-width: 1024px) {
+        .photo-grid {
+        margin: 88px 24px 0px 24px;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(6, auto);
+        }
+    }
+    @media screen and (max-width: 767px) {
+      
+        .photo-grid {
+        position: relative;
+        margin: 64px 16px 0px 16px;
+        grid-template-columns: repeat(1, auto);
+        grid-template-rows: repeat(12, auto);
+        gap: 12px;
+        }
+    }

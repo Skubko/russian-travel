@@ -8,3 +8,18 @@
     /* or 29px */
     color: #FFFFFF;
     }
+
+    @media (min-width: 768px) and (max-width: 1024px) {
+        .place__paragraph-position-top {
+        font-size: 16px;
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+        .place__paragraph-position-top {
+        grid-area: place__paragraph-position-top;
+        font-size: 16px;
+        margin-left: 16px;
+        margin-right: 16px;
+        }
+    }

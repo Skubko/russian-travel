@@ -9,3 +9,17 @@
     color: #FFFFFF;
     }
     
+    @media (min-width: 768px) and (max-width: 1024px) {
+        .place__paragraph-position-bottom {
+        font-size: 16px;
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+        .place__paragraph-position-bottom {
+        grid-area: place__paragraph-position-bottom;
+        margin-left: 16px;
+        margin-right: 16px;
+        font-size: 16px;
+        }
+    }
