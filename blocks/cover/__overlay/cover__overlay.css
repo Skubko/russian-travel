@@ -6,9 +6,8 @@
   z-index: 0;
   display: block;
   width: 100%;
-  z-index: 1;
-  
 }
+
 .cover__overlay :hover {
   opacity: 0.3;
 }
