@@ -1,0 +1,10 @@
+.header__lang-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-decoration-line: none;
+    list-style: none;
+    list-style-type:none;
+    }

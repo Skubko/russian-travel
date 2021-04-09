@@ -3,9 +3,8 @@
     padding: 0px;
     margin-top: 40px;
     position: relative;
-    width: 690px;
-    height: 208px;
-    font-family: Inter;
+    max-width: 690px;
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -15,19 +14,16 @@
     background-color: #2A2C2F;
     }
 
-    @media (min-width: 768px) and (max-width: 1024px) {
+    @media (min-width: 768px) and (max-width: 1023px) {
       
         .intro__text {
-        width: 720px;    /*              меняется на *768  и *320  */
+            max-width: 720px;    /*              меняется на *768  и *320  */
         }
     }
 
     @media screen and (max-width: 767px) {
     
         .intro__text {
-        margin-top: 40px;
-        position: relative;
-        width: 100%;
-        height: 100%;
+        max-width: 100%;
         }
     }
