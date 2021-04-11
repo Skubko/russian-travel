@@ -1,21 +1,21 @@
 .header {
-    margin: 28px 48px 0px 48px;
-    padding: 0px;
+    background-color: #2A2C2F;
+    padding: 28px 48px 0px 48px;
+    margin: 0px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: #2A2C2F;
     }
 
     @media (min-width: 768px) and (max-width: 1023px) {
   .header {
-        margin: 28px 24px 0px 24px;
+    padding: 28px 24px 0px 24px;
         }
     }
     
     @media screen and (max-width: 767px) {
-        .header {
-        margin: 16px 16px 0px 16px;
+    .header {
+    padding: 16px 16px 0px 16px;
         }
     }

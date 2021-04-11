@@ -1,22 +1,22 @@
 .footer {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content:space-between;
     align-items: center;
-    margin: 92px 48px 40px 48px;
-    padding: 0;
+    padding: 92px 48px 24px 48px;
+    margin: 0;
     max-width: 100%;
     }
 
     @media (min-width: 768px) and (max-width: 1023px) {
     .footer {
-    margin: 76px 24px 40px 24px;
+    padding: 76px 24px 24px 24px;
     }
     }
 
     @media screen and (max-width: 767px) {
     .footer {
-    margin: 64px 16px 0px 16px;
+    padding: 64px 16px 24px 16px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;

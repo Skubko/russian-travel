@@ -7,15 +7,9 @@
     line-height: 28px;
     /* identical to box height, or 117% */
     color: #fff;
-    text-decoration-line: none;
     list-style: none;
     list-style-type:none;
-    }
-
-    .header__lang-link:hover {
-        text-decoration-line: underline;
-transition: all 1s ease 0s;
-       opacity: 0.5;
+    text-decoration-line:none;
     }
 
     @media screen and (max-width: 767px) {
