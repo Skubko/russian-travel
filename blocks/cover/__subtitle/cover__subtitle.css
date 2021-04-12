@@ -1,8 +1,8 @@
 .cover__subtitle {
-    position: absolute;
+    position: relative;
     max-width: 28vw;
-    margin-top: 430px;
-    margin-left: calc((100vw - 28vw)/2);
+    margin: 32px 0px 0px 0px;
+    padding: 0px;
     font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -12,29 +12,26 @@
     text-align: center;
     color: #FFFFFF;
     z-index: 5;
+    text-decoration-line: none;
+
     }
 
     @media (min-width: 1024px) and (max-width: 1279px) {
         .cover__subtitle {
-          max-width: 40vw;
-          margin-top: 379px;
-          margin-left: calc((100vw - 40vw)/2);
+          max-width: 35vw;
         }
     }
     @media (min-width: 768px) and (max-width: 1023px) {
         .cover__subtitle {
           max-width: 46vw;
-          margin-top: 299px;
-          margin-left: calc((100vw - 46vw)/2);
           }
         }
 
         @media screen and (max-width: 767px) {
             .cover__subtitle {
               max-width: 90vw;
-          margin-left: calc((100vw - 90vw)/2);
+              margin: 16px 0px 0px 0px;
             font-size: 14px;
             line-height: 16px;
-            margin-top: 119px;
             }
         }
