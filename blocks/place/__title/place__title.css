@@ -3,7 +3,7 @@
     margin: 0px;
     padding: 0px;
     grid-area: place__title;
-    width: 100%;
+    max-width: 90%;
     font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 900;
