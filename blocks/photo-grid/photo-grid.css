@@ -9,7 +9,6 @@
     grid-template-columns: repeat(4, auto);
     grid-template-rows: repeat(3, auto);
     gap: 16px;
-
     }
 
     @media (min-width: 1024px) and (max-width: 1279px) {

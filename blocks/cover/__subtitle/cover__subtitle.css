@@ -23,13 +23,13 @@
     }
     @media (min-width: 768px) and (max-width: 1023px) {
         .cover__subtitle {
-          max-width: 46vw;
+          max-width: 47vw;
           }
         }
 
         @media screen and (max-width: 767px) {
             .cover__subtitle {
-              max-width: 46vw;
+              max-width: 90vw;
               margin: 16px 0px 0px 0px;
             font-size: 14px;
             line-height: 16px;
