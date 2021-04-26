@@ -1,5 +1,5 @@
 .footer__links {
-    display:inline-flex;
+    display: flex;
     display: -webkit-inline-flex;
     flex-direction: row;
     justify-content: flex-start;
